@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  display: block;
+    justify-content: center;
+    min-height: 100vh;
+    background: #9296a3;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+.card{
+  position: relative;
+  min-width: 320px;
+  height: 470px;
+  border-radius: 15px;
+  margin: 30px;
+  
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+  inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+  5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+.box{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.content{
+  padding: 20px;
+  text-align: center;
+  width: auto;
+}
+.txtL{
+  font-size: 30px;
+  color: rgb(241, 19, 19);
+}
+
+.nom{
+  margin: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/***********
+PAGE para Fer
+************/
